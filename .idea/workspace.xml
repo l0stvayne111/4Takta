@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6af1d35-7e65-46b9-8bd2-393eb67e8e93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/forma-zakaza.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forma-zakaza.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shopping-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shopping-cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/default-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forma-zakaza.html" beforeDir="false" afterPath="$PROJECT_DIR$/forma-zakaza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartochka.html" beforeDir="false" afterPath="$PROJECT_DIR$/kartochka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ns0f8n9Q3Hgk8iO4EOsYxP6dHP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6af1d35-7e65-46b9-8bd2-393eb67e8e93" name="Default Changelist" comment="" />
+      <created>1612163592438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612163592438</updated>
+      <workItem from="1612163593775" duration="21239000" />
+      <workItem from="1612186361536" duration="189000" />
+      <workItem from="1612190019535" duration="17347000" />
+      <workItem from="1612209015787" duration="1791000" />
+      <workItem from="1612254411958" duration="16945000" />
+      <workItem from="1612286328174" duration="795000" />
+      <workItem from="1612343174937" duration="17596000" />
+      <workItem from="1612374180441" duration="532000" />
+      <workItem from="1612477380136" duration="3579000" />
+      <workItem from="1612520218825" duration="8019000" />
+      <workItem from="1612530925101" duration="1595000" />
+      <workItem from="1612534858589" duration="717000" />
+      <workItem from="1612552600903" duration="2995000" />
+      <workItem from="1612556595219" duration="88000" />
+      <workItem from="1612556763776" duration="17636000" />
+      <workItem from="1612576309562" duration="321000" />
+      <workItem from="1612606930166" duration="769000" />
+      <workItem from="1612626355125" duration="15441000" />
+      <workItem from="1612645588404" duration="4750000" />
+      <workItem from="1612688493951" duration="270000" />
+      <workItem from="1612708849920" duration="1547000" />
+      <workItem from="1612711480822" duration="5078000" />
+      <workItem from="1612723220322" duration="28000" />
+      <workItem from="1612777779138" duration="11635000" />
+      <workItem from="1612800672025" duration="2000" />
+      <workItem from="1612802416244" duration="45000" />
+      <workItem from="1612874832921" duration="636000" />
+      <workItem from="1612875743853" duration="1250000" />
+      <workItem from="1612895212967" duration="7032000" />
+      <workItem from="1612902429527" duration="93000" />
+      <workItem from="1612969221813" duration="12632000" />
+      <workItem from="1612983857329" duration="74000" />
+      <workItem from="1612986784606" duration="8297000" />
+      <workItem from="1613032548485" duration="6717000" />
+      <workItem from="1613068087734" duration="2724000" />
+      <workItem from="1613072211972" duration="90000" />
+      <workItem from="1613118125467" duration="82000" />
+      <workItem from="1613123738873" duration="9004000" />
+      <workItem from="1613141449366" duration="762000" />
+      <workItem from="1613152630317" duration="9891000" />
+      <workItem from="1613165565330" duration="3498000" />
+      <workItem from="1613171171532" duration="957000" />
+      <workItem from="1613221779614" duration="1069000" />
+      <workItem from="1613322314109" duration="5000" />
+      <workItem from="1613329432965" duration="176000" />
+      <workItem from="1613655448700" duration="7800000" />
+      <workItem from="1613667803085" duration="6000" />
+      <workItem from="1614078532866" duration="1168000" />
+      <workItem from="1614084300968" duration="2116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
