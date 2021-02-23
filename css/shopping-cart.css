@@ -478,29 +478,8 @@ body {
   #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button img {
     transition: 0.3s;
   }
-  #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 104%;
-    height: 0;
-    background: #BC1515;
-    z-index: -1;
-    transition: 0.3s;
-    bottom: -3px;
-    border-radius: 50% 50% 0 0;
-  }
   #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button:hover {
     transform: translateY(0);
-  }
-  #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button:hover img {
-    filter: brightness(0%) invert(100%);
-  }
-  #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button:hover:before {
-    height: 185%;
-  }
-  #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button:hover .text-button-delete {
-    color: #fff;
   }
   #shopping-cart .container .breadcrump-and-form-shopping-cart .form-shopping-cart .form-block form .shopping-items .shopping-item .item-delete button .text-button-delete {
     display: inline-block;
