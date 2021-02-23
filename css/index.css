@@ -1,0 +1,963 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f8f8;
+}
+
+#slider-banner {
+  padding: 15px 0;
+  background: #f8f8f8;
+}
+#slider-banner .container .slider-box {
+  width: 946.5px;
+  height: 428px;
+  position: relative;
+  margin-left: auto;
+  border-radius: 7px;
+}
+#slider-banner .container .slider-box .slider {
+  width: 100%;
+  height: 100%;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items {
+  width: 100%;
+  height: 100%;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li h2 {
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  width: 40%;
+  left: 50px;
+  top: 40px;
+  transition: 0.5s all ease;
+  transition-delay: 1.3s;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li a {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+  left: 0;
+  top: 0;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 55.5%;
+  z-index: 9;
+  background: rgba(188, 21, 21, 0.8);
+  -webkit-clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+  transition: 0.5s all ease;
+  transition-delay: 0.6s;
+  transform: translateX(-100%);
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 64%;
+  z-index: 5;
+  background: rgba(237, 113, 113, 0.5);
+  -webkit-clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
+  transition: 0.5s all ease;
+  transition-delay: 0.7s;
+  transform: translateX(-100%);
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li:not(.uk-active) h2 {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li:not(.uk-active):after {
+  opacity: 0;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items li:not(.uk-active):before {
+  opacity: 0;
+}
+#slider-banner .container .slider-box .slider .uk-slider-items .uk-active h2 {
+  opacity: 1;
+  transform: translateY(0%);
+}
+#slider-banner .container .slider-box .slider .uk-slider-items .uk-active:after {
+  opacity: 1;
+  transform: translateX(0%);
+}
+#slider-banner .container .slider-box .slider .uk-slider-items .uk-active:before {
+  opacity: 1;
+  transform: translateX(0%);
+}
+#slider-banner .container .slider-box .slider .special-offer a {
+  display: block !important;
+}
+#slider-banner .container .slider-box .uk-slider-nav {
+  left: 50px;
+  bottom: 50px;
+  position: absolute;
+  z-index: 100;
+}
+#slider-banner .container .slider-box .uk-slider-nav li:not(.uk-active) a {
+  border-color: #fff;
+  opacity: 0.5;
+}
+#slider-banner .container .slider-box .uk-slider-nav .uk-active a {
+  background: #fff;
+}
+
+#advantages {
+  background: #f8f8f8;
+  padding: 40px 0;
+}
+#advantages .container .advantages-items {
+  padding: 30px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#advantages .container .advantages-items .advantages-item {
+  display: flex;
+  align-items: center;
+  width: 272px;
+}
+#advantages .container .advantages-items .advantages-item .icon {
+  height: 62px;
+  width: 62px;
+  background: #BC1515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#advantages .container .advantages-items .advantages-item .text {
+  margin-left: 12px;
+  width: 193px;
+}
+#advantages .container .advantages-items .advantages-item .text h3 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #000;
+}
+#advantages .container .advantages-items .advantages-item .text p {
+  margin: 0;
+  font-size: 13px;
+}
+
+#new-goods {
+  padding-top: 30px;
+  background: #f8f8f8;
+}
+#new-goods .container .title-block h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: -45px;
+}
+#new-goods .container .goods-slider {
+  min-height: 466px;
+}
+#new-goods .container .goods-slider .slider {
+  padding-top: 70px;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #BC1515;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin: 0;
+  line-height: 23px;
+  text-align: center;
+  border: 1.5px solid #BC1515;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-right:hover {
+  border: 1.5px solid #000;
+  color: #000;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-right svg {
+  width: 10px;
+  height: 22px;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #BC1515;
+  position: absolute;
+  top: 40px;
+  right: 3rem;
+  left: auto;
+  margin: 0;
+  line-height: 23px;
+  text-align: center;
+  border: 1.5px solid #BC1515;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-left:hover {
+  border: 1.5px solid #000;
+  color: #000;
+}
+#new-goods .container .goods-slider .slider .uk-position-center-left svg {
+  width: 10px;
+  height: 22px;
+}
+#new-goods .container .goods-slider .goods-card {
+  width: 226px;
+  height: 346px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  transition: 0.3s all ease;
+  margin: 0 auto;
+}
+#new-goods .container .goods-slider .goods-card .img-card {
+  width: 186px;
+  height: 139px;
+  border-radius: 4px;
+  position: relative;
+}
+#new-goods .container .goods-slider .goods-card .img-card::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(102, 102, 102, 0.1), rgba(102, 102, 102, 0.1));
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#new-goods .container .goods-slider .goods-card .img-card .marker {
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  background: transparent;
+  padding: 6px;
+  font-weight: 600;
+  display: block;
+  z-index: 101;
+  transition: 0.3s all ease;
+  opacity: 0;
+}
+#new-goods .container .goods-slider .goods-card .img-card .marker::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s all ease;
+  z-index: -5;
+}
+#new-goods .container .goods-slider .goods-card .img-card .marker:hover {
+  background: #fff;
+  color: #000;
+}
+#new-goods .container .goods-slider .goods-card .img-card .marker:hover::after {
+  border-color: #000;
+}
+#new-goods .container .goods-slider .goods-card .img-card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(188, 21, 21, 0.5);
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.3s all ease;
+  z-index: 100;
+}
+#new-goods .container .goods-slider .goods-card .img-card:hover .marker {
+  opacity: 1;
+}
+#new-goods .container .goods-slider .goods-card .img-card:hover:after {
+  opacity: 1;
+}
+#new-goods .container .goods-slider .goods-card .name-card {
+  height: 65px;
+  margin-top: 20px;
+}
+#new-goods .container .goods-slider .goods-card .name-card a {
+  margin: 0;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+#new-goods .container .goods-slider .goods-card .price-card p {
+  color: #000;
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+#new-goods .container .goods-slider .goods-card .btn-block {
+  display: flex;
+  flex-direction: column;
+}
+#new-goods .container .goods-slider .goods-card .btn-block button {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 13px 0;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .add {
+  border-color: #BC1515;
+  color: #BC1515;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: 0.3s all ease;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .add::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #BC1515;
+  z-index: -1;
+  transition: 0.3s;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .add:hover {
+  color: #fff;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .add:hover:before {
+  height: 180%;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .more {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 13px 0;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #000;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  visibility: hidden;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(-100%);
+  overflow: hidden;
+  transition: 0.3s all ease;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .more::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #000;
+  z-index: -1;
+  transition: 0.3s;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .more:hover {
+  color: #fff;
+}
+#new-goods .container .goods-slider .goods-card .btn-block .more:hover:before {
+  height: 180%;
+}
+#new-goods .container .goods-slider .goods-card:hover {
+  height: 396px;
+}
+#new-goods .container .goods-slider .goods-card:hover .name-card a {
+  color: #BC1515;
+}
+#new-goods .container .goods-slider .goods-card:hover .more {
+  visibility: visible;
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+#map-and-form {
+  padding: 10px 0 60px 0;
+  background: #f8f8f8;
+}
+#map-and-form .container .map-and-form-box {
+  display: flex;
+  justify-content: space-between;
+}
+#map-and-form .container .map-and-form-box .map {
+  width: 718px;
+  height: 490px;
+  border-radius: 6px;
+}
+#map-and-form .container .map-and-form-box .map iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+#map-and-form .container .map-and-form-box .form {
+  padding: 50px 40px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+#map-and-form .container .map-and-form-box .form h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 40px;
+}
+#map-and-form .container .map-and-form-box .form input {
+  display: block;
+  width: 370px;
+  font-size: 15px;
+  padding: 15px 16px;
+  border-radius: 4px;
+  background: #F2F2F2;
+  margin-bottom: 20px;
+  border: 0;
+  outline: 0;
+  color: #000;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+#map-and-form .container .map-and-form-box .form input:hover {
+  background: #ebebeb;
+}
+#map-and-form .container .map-and-form-box .form input:focus {
+  background: #ebebeb;
+}
+#map-and-form .container .map-and-form-box .form input::-webkit-input-placeholder {
+  color: #9B9B9B;
+}
+#map-and-form .container .map-and-form-box .form input::-moz-placeholder {
+  color: #9B9B9B;
+}
+#map-and-form .container .map-and-form-box .form input[type=checkbox] {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox {
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  /* для элемента input c type="checkbox" */
+  /* для элемента label, связанного с .custom-checkbox */
+  /* создание в label псевдоэлемента before со следующими стилями */
+  /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+  /* стили для чекбокса, находящегося в состоянии checked */
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox > input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox > span {
+  display: inline-flex;
+  align-items: flex-start;
+  line-height: 15px;
+  -webkit-user-select: none;
+          user-select: none;
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox > span::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #F2F2F2;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox > input:focus:not(:checked) + span::before {
+  border-color: #F2F2F2;
+}
+#map-and-form .container .map-and-form-box .form .custom-checkbox > input:checked + span::before {
+  border-color: #000;
+  background-color: #000;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+#map-and-form .container .map-and-form-box .form button {
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  background: linear-gradient(180deg, #DB1414 0%, #BA0D0D 100%);
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  padding: 15px 40px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#map-and-form .container .map-and-form-box .form button:hover {
+  border-radius: 35px;
+}
+
+@media (max-width: 1024px) {
+  #slider-banner .container .slider-box {
+    margin-left: auto;
+    width: 100%;
+  }
+  #slider-banner .container .slider-box .slider .uk-slider-items li h2 {
+    font-size: 30px;
+    top: 20px;
+  }
+
+  #advantages .container .advantages-items {
+    padding: 20px;
+    justify-content: center;
+  }
+  #advantages .container .advantages-items .advantages-item {
+    width: 50%;
+    justify-content: center;
+  }
+  #advantages .container .advantages-items .advantages-item:nth-child(1n+3) {
+    margin-top: 15px;
+  }
+  #advantages .container .advantages-items .advantages-item .text {
+    width: 350px;
+  }
+
+  #new-goods .container .goods-slider .slider li {
+    width: 25%;
+  }
+
+  #map-and-form .container .map-and-form-box .map {
+    width: 550px;
+  }
+  #map-and-form .container .map-and-form-box .form {
+    padding: 40px;
+  }
+  #map-and-form .container .map-and-form-box .form input {
+    width: 340px;
+  }
+}
+@media (max-width: 854px) {
+  #slider-banner .container .slider-box {
+    width: 100%;
+  }
+
+  #advantages .container .advantages-items .advantages-item .text {
+    width: 250px;
+  }
+
+  #new-goods .container .goods-slider .slider li {
+    width: 33%;
+  }
+
+  #map-and-form .container .map-and-form-box {
+    flex-direction: column-reverse;
+  }
+  #map-and-form .container .map-and-form-box .form {
+    width: 70%;
+    margin: 0 auto 20px auto;
+  }
+  #map-and-form .container .map-and-form-box .form input {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .map {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  #slider-banner .container .slider-box {
+    height: 250px;
+  }
+  #slider-banner .container .slider-box .slider .uk-slider-items li h2 {
+    font-size: 17px;
+    top: 10%;
+    left: 20px;
+  }
+  #slider-banner .container .slider-box .uk-slider-nav {
+    left: 20px;
+    bottom: 0;
+  }
+
+  #advantages {
+    padding: 20px 0;
+  }
+  #advantages .container .advantages-items .advantages-item {
+    margin-top: 15px;
+    width: 50%;
+  }
+  #advantages .container .advantages-items .advantages-item .text {
+    width: 200px;
+  }
+
+  #new-goods {
+    padding-top: 10px;
+  }
+  #new-goods .container .title-block h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: -45px;
+  }
+  #new-goods .container .goods-slider {
+    min-height: 400px;
+  }
+  #new-goods .container .goods-slider .slider li {
+    width: 33%;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-right {
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    line-height: 14px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-right svg {
+    width: 10px;
+    height: 15px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-left {
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    right: 2.5rem;
+    line-height: 14px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-left svg {
+    width: 10px;
+    height: 15px;
+  }
+  #new-goods .container .goods-slider .goods-card {
+    width: 165px;
+    height: 272px;
+    padding: 10px;
+  }
+  #new-goods .container .goods-slider .goods-card .img-card {
+    width: 145px;
+    height: 98px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card {
+    height: 65px;
+    margin-top: 20px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card a {
+    font-size: 12px;
+  }
+  #new-goods .container .goods-slider .goods-card .price-card p {
+    color: #000;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #new-goods .container .goods-slider .goods-card .btn-block button {
+    font-size: 10px;
+    padding: 11px 0;
+  }
+  #new-goods .container .goods-slider .goods-card .btn-block .more {
+    font-size: 10px;
+    padding: 9px 0;
+    border-radius: 4px;
+  }
+  #new-goods .container .goods-slider .goods-card:hover {
+    height: 320px;
+  }
+
+  #map-and-form {
+    padding-bottom: 20px;
+  }
+  #map-and-form .container .map-and-form-box {
+    flex-direction: column-reverse;
+  }
+  #map-and-form .container .map-and-form-box .form {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  #map-and-form .container .map-and-form-box .form h2 {
+    margin-bottom: 30px;
+  }
+  #map-and-form .container .map-and-form-box .form input {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .form .custom-checkbox br {
+    display: none;
+  }
+  #map-and-form .container .map-and-form-box .form button {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .map {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (max-width: 576px) {
+  #slider-banner .container .slider-box {
+    height: 200px;
+  }
+  #slider-banner .container .slider-box .slider .uk-slider-items li h2 {
+    font-size: 13px;
+    top: 10%;
+    left: 20px;
+  }
+  #slider-banner .container .slider-box .uk-slider-nav {
+    left: 20px;
+    bottom: 0;
+  }
+
+  #advantages {
+    padding: 20px 0;
+  }
+  #advantages .container .advantages-items .advantages-item {
+    margin-top: 15px;
+    width: 100%;
+  }
+  #advantages .container .advantages-items .advantages-item:first-child {
+    margin-top: 0;
+  }
+  #advantages .container .advantages-items .advantages-item .text {
+    width: 200px;
+  }
+
+  #new-goods {
+    padding-top: 10px;
+  }
+  #new-goods .container .title-block h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: -45px;
+  }
+  #new-goods .container .goods-slider {
+    min-height: 400px;
+  }
+  #new-goods .container .goods-slider .slider li {
+    width: 50%;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-right {
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    line-height: 14px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-right svg {
+    width: 10px;
+    height: 15px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-left {
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    right: 2.5rem;
+    line-height: 14px;
+  }
+  #new-goods .container .goods-slider .slider .uk-position-center-left svg {
+    width: 10px;
+    height: 15px;
+  }
+  #new-goods .container .goods-slider .goods-card {
+    width: 165px;
+    height: 272px;
+    padding: 10px;
+  }
+  #new-goods .container .goods-slider .goods-card .img-card {
+    width: 145px;
+    height: 98px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card {
+    height: 65px;
+    margin-top: 20px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card a {
+    font-size: 12px;
+  }
+  #new-goods .container .goods-slider .goods-card .price-card p {
+    color: #000;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  #new-goods .container .goods-slider .goods-card .btn-block button {
+    font-size: 10px;
+    padding: 11px 0;
+  }
+  #new-goods .container .goods-slider .goods-card .btn-block .more {
+    font-size: 10px;
+    padding: 9px 0;
+    border-radius: 4px;
+  }
+  #new-goods .container .goods-slider .goods-card:hover {
+    height: 320px;
+  }
+
+  #map-and-form {
+    padding-bottom: 20px;
+  }
+  #map-and-form .container .map-and-form-box {
+    flex-direction: column-reverse;
+  }
+  #map-and-form .container .map-and-form-box .form {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  #map-and-form .container .map-and-form-box .form h2 {
+    margin-bottom: 30px;
+  }
+  #map-and-form .container .map-and-form-box .form input {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .form .custom-checkbox br {
+    display: none;
+  }
+  #map-and-form .container .map-and-form-box .form button {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .map {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (max-width: 320px) {
+  #slider-banner {
+    padding-bottom: 10px;
+  }
+  #slider-banner .container .slider-box {
+    height: 180px;
+  }
+  #slider-banner .container .slider-box .slider .uk-slider-items li h2 {
+    font-size: 11px;
+    top: 10%;
+    left: 20px;
+  }
+  #slider-banner .container .slider-box .uk-slider-nav {
+    left: 20px;
+    bottom: 0;
+  }
+
+  #advantages {
+    padding: 10px 0;
+  }
+  #advantages .container .advantages-items {
+    padding: 15px;
+  }
+  #advantages .container .advantages-items .advantages-item {
+    margin-top: 15px;
+    width: 100%;
+  }
+  #advantages .container .advantages-items .advantages-item:first-child {
+    margin-top: 0;
+  }
+  #advantages .container .advantages-items .advantages-item .text {
+    width: 200px;
+  }
+
+  #new-goods {
+    padding-top: 30px;
+  }
+  #new-goods .container .goods-slider {
+    min-height: 360px;
+  }
+  #new-goods .container .goods-slider .slider li {
+    width: 50%;
+  }
+  #new-goods .container .goods-slider .goods-card {
+    width: 135px;
+    height: 242px;
+    padding: 10px;
+  }
+  #new-goods .container .goods-slider .goods-card .img-card {
+    width: 115px;
+    height: 78px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card {
+    height: 55px;
+    margin-top: 10px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(102, 102, 102, 0.1), rgba(102, 102, 102, 0.1));
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 4px;
+  }
+  #new-goods .container .goods-slider .goods-card .name-card a {
+    font-size: 11px;
+  }
+  #new-goods .container .goods-slider .goods-card .price-card p {
+    font-size: 16px;
+  }
+  #new-goods .container .goods-slider .goods-card:hover {
+    height: 280px;
+  }
+
+  #map-and-form {
+    padding-bottom: 20px;
+  }
+  #map-and-form .container .map-and-form-box {
+    flex-direction: column-reverse;
+  }
+  #map-and-form .container .map-and-form-box .form {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  #map-and-form .container .map-and-form-box .form h2 {
+    margin-bottom: 30px;
+  }
+  #map-and-form .container .map-and-form-box .form input {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .form span {
+    font-size: 12px;
+  }
+  #map-and-form .container .map-and-form-box .form .custom-checkbox br {
+    display: none;
+  }
+  #map-and-form .container .map-and-form-box .form button {
+    width: 100%;
+  }
+  #map-and-form .container .map-and-form-box .map {
+    width: 100%;
+    height: 200px;
+  }
+}
