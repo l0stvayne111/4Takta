@@ -62,6 +62,12 @@ $mainGray: #2E2E2E;
       .search-and-basket{
         display: flex;
         align-items: center;
+
+        .phone-number{
+          a{
+            color: #fff;
+          }
+        }
         .search-button{
           width: 36px;
           height: 100%;
@@ -155,6 +161,25 @@ $mainGray: #2E2E2E;
   }
   .uk-parent a{
     padding: 10px 0px;
+  }
+  .contact-block{
+    margin-top: 60px;
+
+    .phone-number{
+      margin-bottom: 10px;
+      //margin-left: 10px;
+    }
+    .mail{
+      //margin-left: 10px;
+    }
+    a{
+
+      span{
+        &:nth-child(1){
+          margin-right: 5px;
+        }
+      }
+    }
   }
 }
 .main-header {
@@ -2642,8 +2667,7 @@ $mainGray: #2E2E2E;
               display: none;
               position: absolute;
               background: #fff;
-              z-index: 99;
-
+              z-index: 200;
             }
 
             .drop li {

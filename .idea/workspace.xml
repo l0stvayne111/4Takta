@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6af1d35-7e65-46b9-8bd2-393eb67e8e93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category-catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/forma-zakaza.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forma-zakaza.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header-footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shopping-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shopping-cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/default-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/default-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forma-zakaza.html" beforeDir="false" afterPath="$PROJECT_DIR$/forma-zakaza.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartochka.html" beforeDir="false" afterPath="$PROJECT_DIR$/kartochka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.min.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.min.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/media.min.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media.min.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +117,8 @@
       <workItem from="1613667803085" duration="6000" />
       <workItem from="1614078532866" duration="1168000" />
       <workItem from="1614084300968" duration="2116000" />
+      <workItem from="1614203122624" duration="6000" />
+      <workItem from="1614246539499" duration="2347000" />
     </task>
     <servers />
   </component>
